@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class UnitOfMeasureCommandToUnitOfMeasureTest {
 
-    private static final Long ID_VALUE = Long.valueOf(1);
+    private static final String ID_VALUE = "1";
     private static final String DESCRIPTION = "description";
     UnitOfMeasureCommandToUnitOfMeasure converter;
 

@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.Optional;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import net.casesr.recipeapp.domain.UnitOfMeasure;
 
+@Disabled
 @RunWith(SpringRunner.class)
 @DataJpaTest
 class UnitOfMeasureRepositoryIT {

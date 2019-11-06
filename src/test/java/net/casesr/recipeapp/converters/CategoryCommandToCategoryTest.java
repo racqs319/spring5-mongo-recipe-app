@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 public class CategoryCommandToCategoryTest {
 
-    public static final Long ID_VALUE = Long.valueOf(1);
+    public static final String ID_VALUE = "1";
     public static final String DESCRIPTION = "description";
     CategoryCommandToCategory converter;
 

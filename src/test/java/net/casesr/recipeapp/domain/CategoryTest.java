@@ -16,7 +16,7 @@ class CategoryTest {
 
 	@Test
 	void testGetId() {
-		Long idValue = 4L;
+		String idValue = "4";
 		
 		category.setId(idValue);
 		
